@@ -4,7 +4,7 @@
 ; Also provides additional tweaks provided by:
 ; https://github.com/emoose/OutRun2006Tweaks
 ;
-; This version dowloads the ZIP patch from GitHub.
+; This version downloads the ZIP patch from GitHub.
 ;
 ; This installer script was written by Sam Saint-Pettersen
 

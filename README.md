@@ -3,7 +3,7 @@
 
 **IMPORTANT: You must legally own a copy of OutRun 2006 Coast 2 Coast to use this patch installer.**
 
-This patch also uses the release of https://github.com/emoose/OutRun2006Tweaks for additional tweaks.
+This patch installer also uses the release of https://github.com/emoose/OutRun2006Tweaks for additional tweaks.
 
 * Download the release [or2006_c2c_dl_patch_0.6.1.exe](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_dl_patch_0.6.1.exe).
 

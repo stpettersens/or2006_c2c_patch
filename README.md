@@ -1,5 +1,5 @@
 ### OutRun 2006 Coast 2 Coast Patch Installer
-> This patch installer provides no disc DRM executable, fix for missing lens fare and bloom, etc.
+> This patch installer provides no disc DRM executable, fix for missing lens flare and bloom, etc.
 
 **IMPORTANT: You must legally own a copy of OutRun 2006 Coast 2 Coast to use this patch installer.**
 

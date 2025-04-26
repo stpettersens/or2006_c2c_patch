@@ -80,6 +80,7 @@ Section "Dummy Section" SecDummy
   SetOutPath "$INSTDIR"
   File "patch_exe.cmd"
   File "restore_exe.cmd"
+  File "fix_effects.cmd"
 
   InitPluginsDir
 
@@ -90,7 +91,7 @@ Section "Dummy Section" SecDummy
 
   ; Download ZIP patch from GitHub.
   DetailPrint "Downloading $R1..."
-  inetc::get /SILENT /URL "https://github.com/emoose/OutRun2006Tweaks/releases/download/v0.6.1/$R1" "$R2"
+  inetc::get /SILENT /URL "https://github.com/emoose/OutRun2006Tweaks/releases/download/v$0/$R1" "$R2"
   Pop $0
   DetailPrint "Download result: $0"
   StrCmp $0 "OK" downloaded
@@ -122,8 +123,7 @@ Section "Dummy Section" SecDummy
 
   ; Patch missing lens flare and bloom...
   DetailPrint "Patching to fix missing lens flare and bloom..."
-  SetOutPath "$INSTDIR\Common"
-  File "lens_flare_offset.bin"
+  nsExec::ExecToStack "$INSTDIR\fix_effects.cmd"
   DetailPrint "Done."
 
   ; Delete ZIP as it has been extracted by this point.

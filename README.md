@@ -11,7 +11,7 @@ If you would prefer an ISO, you can dowload [or2006_c2c_patch.iso](https://githu
 
 * Requires [NSIS 3.11+](https://nsis.sourceforge.io/Download) (Unicode)
 * [Inetc plug-in](https://nsis.sourceforge.io/Inetc_plug-in) (Unicode)
-* [Nsisunz](https://nsis.sourceforge.io/Nsisunz_plug-in) (Unicode)
+* [Nsisunz plug-in](https://nsis.sourceforge.io/Nsisunz_plug-in) (Unicode)
 
 With the required plugins installed and this repository cloned or downloaded, you can build the installer
 using `MakeNSISW` or `makensis`.

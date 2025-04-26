@@ -5,7 +5,7 @@
 
 This patch also uses the release of https://github.com/emoose/OutRun2006Tweaks for additional tweaks.
 
-* Download the release [or2006_c2c_dl_patch_0.6.1.exe](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_dl_patch_0.6.1.exe)
+* Download the release [or2006_c2c_dl_patch_0.6.1.exe](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_dl_patch_0.6.1.exe).
 
 * If you would prefer an ISO, you can download [or2006_c2c_patch.iso](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_patch.iso).
 #### Build from source

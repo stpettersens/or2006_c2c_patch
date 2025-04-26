@@ -91,7 +91,7 @@ Section "Dummy Section" SecDummy
 
   ; Download ZIP patch from GitHub.
   DetailPrint "Downloading $R1..."
-  inetc::get /SILENT /URL "https://github.com/emoose/OutRun2006Tweaks/releases/download/v$0/$R1" "$R2"
+  inetc::get /SILENT /URL "https://github.com/emoose/OutRun2006Tweaks/releases/download/v$R0/$R1" "$R2"
   Pop $0
   DetailPrint "Download result: $0"
   StrCmp $0 "OK" downloaded

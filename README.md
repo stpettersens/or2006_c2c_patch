@@ -7,7 +7,8 @@ This patch installer also uses the release of https://github.com/emoose/OutRun20
 
 * Download the release [or2006_c2c_dl_patch_0.6.1.exe](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_dl_patch_0.6.1.exe).
 
-* If you would prefer an ISO, you can download [or2006_c2c_patch.iso](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_patch.iso).
+* If you would prefer an ISO, you can download [or2006_c2c_patch.iso](https://github.com/stpettersens/or2006_c2c_patch/releases/download/v0.6.1/or2006_c2c_dl_patch.iso).
+
 #### Build from source
 
 * Requires [NSIS 3.11+](https://nsis.sourceforge.io/Download) (Unicode)
@@ -16,6 +17,21 @@ This patch installer also uses the release of https://github.com/emoose/OutRun20
 
 With the required plugins installed and this repository cloned or downloaded, you can build the installer
 using `MakeNSISW` or `makensis`.
+
+#### Build executable installer.
+
+Requires that `makensis` is on system PATH.
+
+> build_exe.bat
+
+#### Build ISO image constaining executable installer.
+
+First run `build_exe.bat` and [genisoimage executable/wrapper](https://gist.github.com/stpettersens/a167dea1069657e2149a699d24620fc2)
+must be in your system PATH.
+
+I obtained the `genisoimage.exe` executable from [Cygwin x64](https://cygwin.com/install.html) project.
+
+> build_iso.bat
 
 #### License
 * Patch installer script is licensed under the MIT License.
